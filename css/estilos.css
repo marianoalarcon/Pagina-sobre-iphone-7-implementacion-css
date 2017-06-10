@@ -132,6 +132,14 @@ span#textoloco{
 }
 
 /*-----------------------------------------------------------------*/
+h2#prueba:hover{
+	-webkit-transition: all 3s ease;
+	-moz-transition: all 3s ease;
+	-ms-transition: all 3s ease;
+	-o-transition: all 3s ease;
+	transition: all 3s ease;
+
+}
 h1{
 	color: rgb(90, 161, 92);
 	margin: 1rem auto;
