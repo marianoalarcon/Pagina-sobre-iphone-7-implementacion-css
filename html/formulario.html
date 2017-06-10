@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	
+	<!-- Integrantes: Dario Falzone ; Mariano Alarcon -->
+
+	<!-- METAS -->
+	<meta charset="UTF-8">
+	<meta content="author" content="Dario Falzone">
+	<meta content="keywords" content="prueba, sitio, pagina, html5, trabajo">
+	<meta content="description" content="Practico numero 5">
+		
+	<!-- Estilos -->
+	<link rel="stylesheet" type="text/css"	href="../css/estilos.css">
+
+	<title>Formulario</title>	
+</head>
+
+<body>
+	
+	<header>
+		<h1>Formulario</h1>
+		
+		<nav>
+			<ul>
+				<li><a href="pag2_ejercicio1.html" title="enlace de lista hacia telefono inteligentes">Telefono inteligentes</a></li>
+				<li><a href="pag1_ejercicio1.html" title="enlace de lista hacia Apple inc.">Apple inc.</a></li>
+				<li><a href="pag3_ejercicio1.html" title="enlaces internos hacia iPhone 6">IPhone 6s</a></li>
+				<li><a href="pag4_ejercicio1.html" title="enlaces internos hacia el apartado Siri">La voz del sistema ; Siri</a></li>
+			</ul>
+		</nav>				
+	</header>
+
+	<section id="principal">
+
+	<form action="#" method="post" name="formulario" title="Formulario de envio de informacion muy relevante">
+		<fieldset>
+			<legend>Datos personales</legend>
+				<label for="nombre"> Nombre de usuario: </label> 
+				<input type="text" id="nombre" maxlength="20" placeholder="Nickname">
+				
+				<label for="pass"> Contraseña </label> 
+				<input type="password" id="pass" placeholder="Password">
+
+				<label for="fecha"> Fecha de nacimiento: </label> 
+				<input type="date" id="fecha">
+
+				<label for="direccion"> Dirección: </label> 
+				<input type="adress" id="direccion" size="40" placeholder="Adress">
+
+				<label for="numero"> Nº: </label> 
+				<input type="number" id="numero" placeholder="Ejemplo: 1964">
+
+				<label for="localidad"> Localidad: </label>
+					<select name="select" id="localidad">
+						<option value="sm">San miguel</option>
+						<option value="tf">Tafi</option>
+						<option value="yb">Yerba</option>
+						<option value="ct" selected>Capital</option>
+					</select>	 		
+				<br><br>
+
+				<label for="telefono"> Teléfono: </label> 
+				<input type="number" id="telefono" placeholder="Inserte su telefono">			
+
+				<label for="sexo">Sexo</label>
+				<br>
+				<label for="mujer">Mujer</label>
+				<input type="radio" name="sexo" id="mujer" value="mujer">
+				<label for="hombre">Hombre</label>
+				<input type="radio" name="sexo" id="hombre" value="hombre">
+				<label for="nose">Sin especificar</label>
+				<input type="radio" name="sexo" id="nose" value="indistinto">
+
+				<label for="favorito">Escoge tu color favorito</label>
+				<input type="color" id="favorito">
+
+				<label for="rango">Escoger el rando de dinero que queres ganar</label>
+				<input type="range" id="rango">
+
+				<label for="buscar">Buscar algo</label>
+				<input type="search" id="buscar" placeholder="Apretar para buscar">
+				
+				<label for="quiero">Quiero recibir notificaciones basura a mi email</label>
+				<input type="checkbox" id="quiero" checked>
+				<label for="estoy">Estoy de acuerdo con condiciones que nunca nadie lee</label>
+				<input type="checkbox" id="estoy">		
+
+				<label for="mensaje">Mensaje</label>
+				<textarea id="mensaje" placeholder="Escriba su mensaje"></textarea>  			
+		
+				<input type="submit" value="Registro">
+				<input type="reset"  value="Limpiar">
+		</form>
+
+	</section>
+
+	<footer>
+		<a href="mailto:mariano.alarcon@hotmail.com">darioefalzone@hotmail.com y mariano.alarcon@hotmail.com</a>
+	</footer>
+</body>
+</html>
