@@ -116,20 +116,25 @@ img#img4:hover{
 	transition: all 3s ease;
 }
 /*-----------texto loco----------------------*/}
-span#textoloco:hover{
-	-moz-transform: scale(1.2) rotate(234deg) translateX(2px) translateY(2px) skewX(0deg) skewY(0deg);
-	-webkit-transform: scale(1.2) rotate(234deg) translateX(2px) translateY(2px) skewX(0deg) skewY(0deg);
-	-o-transform: scale(1.2) rotate(234deg) translateX(2px) translateY(2px) skewX(0deg) skewY(0deg);
-	-ms-transform: scale(1.2) rotate(234deg) translateX(2px) translateY(2px) skewX(0deg) skewY(0deg);
-	transform: scale(1.2) rotate(234deg) translateX(2px) translateY(2px) skewX(0deg) skewY(0deg);
+
+p#textoloco{
+	
 }
-span#textoloco{
+p#textoloco:hover{
+	-moz-transform: scale(1.2) rotate(360deg);
+	-webkit-transform: scale(1.2) rotate(360deg);
+	-o-transform: scale(1.2) rotate(360deg);
+	-ms-transform: scale(1.2) rotate(360deg);
+	transform: scale(1.2) rotate(360deg);
+
 	-webkit-transition: all 3s ease;
 	-moz-transition: all 3s ease;
 	-ms-transition: all 3s ease;
 	-o-transition: all 3s ease;
 	transition: all 3s ease;
 }
+	
+
 
 /*-----------------------------------------------------------------*/
 h2#prueba:hover{
@@ -219,7 +224,7 @@ article p{
 	text-align: justify;
 }
 
-article p:hover{
+.halo:hover{
 	-webkit-transition: all .2s ease-in-out;
 	-moz-transition: all .2s ease-in-out;
 	-ms-transition: all .2s ease-in-out;
